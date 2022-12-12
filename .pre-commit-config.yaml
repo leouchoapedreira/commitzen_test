@@ -1,15 +1,23 @@
 repos:
--   repo: https://github.com/ambv/black
-    rev: 20.8b1
-    hooks:
-    - id: black
--   repo: https://github.com/timothycrosley/isort
-    rev: 5.7.0
-    hooks:
-    -   id: isort
-        args: [--profile=black]
--   repo: https://github.com/econchick/interrogate
-    rev: 1.4.0  
-    hooks:
-    - id: interrogate
-      args: [-vv, -i, --fail-under=80]
+- hooks:
+  - id: black
+  repo: https://github.com/ambv/black
+  rev: 20.8b1
+- hooks:
+  - args:
+    - --profile=black
+    id: isort
+  repo: https://github.com/timothycrosley/isort
+  rev: 5.7.0
+- hooks:
+  - args:
+    - -vv
+    - -i
+    - --fail-under=80
+    id: interrogate
+  repo: https://github.com/econchick/interrogate
+  rev: 1.4.0
+- hooks:
+  - id: commitizen
+  repo: https://github.com/commitizen-tools/commitizen
+  rev: v2.38.0

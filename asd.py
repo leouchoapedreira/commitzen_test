@@ -2,4 +2,4 @@
 asdasdad
 """
 
-print("test")
+print("bug solved!")

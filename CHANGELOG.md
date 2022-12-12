@@ -1,3 +1,11 @@
+## 1.5.2 (2022-12-12)
+
+### Fix
+
+- again a hotfix
+- another hotfix
+- hotfix
+
 ## 1.5.1 (2022-12-12)
 
 ### Feat

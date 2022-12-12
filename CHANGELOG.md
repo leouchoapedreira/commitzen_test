@@ -1,4 +1,4 @@
-## 1.6.1 (2022-12-12)
+## 1.6.2 (2022-12-12)
 
 ### Feat
 
@@ -7,6 +7,8 @@
 
 ### Fix
 
+- fix another thing for another PR (#4)
+- fixed something for PR (#2)
 - **fix**: new fix file
 - bugfix important
 

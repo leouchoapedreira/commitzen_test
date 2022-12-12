@@ -1,4 +1,4 @@
-## 1.6.0 (2022-12-12)
+## 1.6.1 (2022-12-12)
 
 ### Feat
 
@@ -7,6 +7,7 @@
 
 ### Fix
 
+- **fix**: new fix file
 - bugfix important
 
 ### Refactor

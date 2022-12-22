@@ -1,3 +1,9 @@
+## 1.6.3 (2022-12-22)
+
+### Fix
+
+- **arruma-ou-perde-o-emprego**: precisei arrumar pra nao perder o emprego (#6)
+
 ## 1.6.2 (2022-12-12)
 
 ### Feat
